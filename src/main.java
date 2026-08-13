@@ -17,11 +17,11 @@ public class main {
         z1.transfereVida(z2,100);
 
         System.out.println( z1.nome);
-        System.out.println( "Vida: " + z1.vida);
+        System.out.println( "Vida: " + z1.mostraVida());
 
         System.out.println();
         System.out.println(z2.nome);
-        System.out.println("Vida: " + z2.vida);
+        System.out.println("Vida: " + z2.mostraVida());
 
 
     }
